@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &-box {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+
+    &-image {
+      width: 200px;
+      height: 300px;
+      border-radius: 10px;
+    }
+  }
+}
+
+.display-field {
+  .x-form-display-field-default {
+    margin-top: 0;
+  }
+
+  &--label {
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+
+//.container {
+//  display: flex;
+//  justify-content: center;
+//  flex-wrap: wrap;
+//
+//  &-box {
+//    width: 175px;
+//    height: 300px;
+//    margin: 10px;
+//
+//    &-image {
+//      height: 300px;
+//      width: 175px;
+//      border-radius: 8px;
+//    }
+//  }
+//}
+//
+//.test {
+//  .x-grid-body {
+//    display: none;
+//  }
+//}
+
+
+/*
+ * This is is imported by virtue of "sass.etc" in "app.json".
+ */
